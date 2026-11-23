@@ -1,0 +1,298 @@
+.box {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.img1 img {
+    width: 100px;
+}
+
+.a1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.a1 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.a1 img {
+    width: 20px;
+}
+
+.a1 button {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 8px 18px;
+}
+
+.box1 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text h1 {
+    font-weight: 500;
+    font-size: 56px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.tex {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+    line-height: 22px;
+}
+
+.img2 {
+    width: 400px;
+}
+
+.box2{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.img3{
+    margin-left: 20px;
+    line-height: 2;
+}
+
+.tex1 {
+    position: absolute;
+    bottom: -250px;
+    left: 350px;
+    color: white;
+    font-size: xxx-large;
+    font-weight: 200;
+}
+
+.box3 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.b5 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.b5 img {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.b1, .b2, .b3, .b4 {
+    width: 20%;
+    text-align: center;
+    border: 3px solid rgba(241, 238, 238, 0.29);
+    height: 250px;
+}
+
+.box4{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-top: 60px;
+}
+
+.tex0{
+  display: flex;
+  gap: 40px;
+}
+
+.tex0 h3{
+   font-size: x-large;
+   font-weight: 700;
+}
+
+.button_header {
+    background-color: #0075FF;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.box5{
+      max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-top: 60px;
+    gap: 90px;
+}
+
+.box6{
+      max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 20px 30px;
+    margin-top: 60px;
+}
+
+.tex3{
+    background-color:rgba(171, 109, 29, 0.693);
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+}
+
+.tt{
+     font-size: x-large;
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.23);
+}
+
+.box7 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.tex9 h1 {
+    font-size: 25px;
+}
+
+.tex9 p {
+    color: gray;
+    font-size: 13px;
+}
+
+.tex4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tex4 img {
+    margin-left: auto;
+    width: 80px;
+}
+
+.tex4 button {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 7px 20px;
+}
+
+.tex5, .tex7, .tex8 {
+    width: 32%;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.ff{
+      border: 1px solid #0f0b0be7;
+      border-radius: 6px;
+       padding: 1px 1px;
+}
+
+.tex6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.tex6 button {
+    background: #3976D0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 12px;
+}
+
+.tex5 h4, .tex7 h4, .tex8 h3,
+.tex5 > p, .tex7 > p, .tex8 > p {
+    padding: 0 10px;
+}
+
+.joker {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.tex10 {
+    width: 60%;
+}
+
+.email {
+    display: flex;
+    margin-top: 25px;
+    gap: 5px;
+}
+
+.email input {
+    width: 200px;
+    padding: 10px;
+  
+    border-radius: 20px;
+}
+
+.email button {
+    background-color: #3976D0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 450px;
+}
+
+.box8{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 90px;
+    background-color: #E9EAEB;
+    padding: 10px 30px;
+}
+
+.box9{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 20px 30px;
+    margin-top: 60px;
+    gap: 200px;
+}
